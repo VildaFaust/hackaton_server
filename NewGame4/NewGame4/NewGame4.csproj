@@ -10,8 +10,6 @@
       <PackageReference Include="JSON" Version="1.0.1" />
       <PackageReference Include="Json.Net" Version="1.0.23" />
       <PackageReference Include="Microsoft.AspNetCore.Authentication.Abstractions" Version="2.2.0" />
-      <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.1.1" />
-      <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="4.1.1" />
       <PackageReference Include="MySql.Data" Version="8.0.21" />
       <PackageReference Include="MySql.Data.Entity" Version="6.10.9" />
       <PackageReference Include="MySql.Data.EntityFramework" Version="8.0.21" />
@@ -56,10 +54,6 @@
 
     <ItemGroup>
       <Folder Include="Commands\Admin" />
-      <Folder Include="Configs" />
-      <Folder Include="Resources\Decks" />
-      <Folder Include="Resources\GameResources" />
-      <Folder Include="Resources\LeaderGameResources" />
     </ItemGroup>
 
 </Project>
