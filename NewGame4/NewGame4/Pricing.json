@@ -1,0 +1,16 @@
+﻿{
+  "Pricing": [
+    {
+      "name": "Virtuoso",
+      "price": 1000
+    },
+    {
+      "name": "Expert",
+      "price": 2000
+    },
+    {
+      "name": "Master",
+      "price": 3000
+    }
+  ]                
+}         
