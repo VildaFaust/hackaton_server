@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
 
@@ -55,6 +55,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="Commands\Admin" />
       <Folder Include="Configs" />
       <Folder Include="Resources\Decks" />
       <Folder Include="Resources\GameResources" />

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Http;
 using NewGame4.Commands;
-using NewGame4.Commands.Admin;
 using NewGame4.Commands.Base;
 using NewGame4.Commands.GameElements;
 using NewGame4.Commands.GameProcess;
@@ -42,8 +41,6 @@ namespace NewGame4.Utilities
                 {nameof(ScreenChangedCommand), (form, response, request) => new ScreenChangedCommand(form, response, request)},
                 {nameof(PlayerEnterCommand), (form, response, request) => new PlayerEnterCommand(form, response, request)},
                 {nameof(IsGameCommand), (form, response, request) => new IsGameCommand(form, response, request)},
-                {nameof(UploadCardCommand), (form, response, request) => new UploadCardCommand(form, response, request)},
-                {nameof(UploadDeckCommand), (form, response, request) => new UploadDeckCommand(form, response, request)},
             };
         }
     }

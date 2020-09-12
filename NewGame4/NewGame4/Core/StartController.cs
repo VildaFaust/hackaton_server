@@ -1,20 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Net;
-using System.Security.Claims;
-using System.Text;
-using System.Text.Json;
-using fastJSON;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using NewGame4.Commands;
-using NewGame4.Decks;
 using NewGame4.Sessions;
 using NewGame4.Users;
 using NewGame4.Utilities;
-using Newtonsoft.Json;
 
 namespace NewGame4.Core
 {
@@ -43,7 +31,6 @@ namespace NewGame4.Core
             _context.Factory = new Factory(_context);
             _context.UserModel = new UserModel();
             _context.SessionModel = new SessionModel();
-            _context.DeckModel = new DeckModel();
         }
 
         private void CreateControllers()
